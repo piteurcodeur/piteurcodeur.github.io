@@ -1,10 +1,229 @@
-.h{
-    color: blue;
+.container {
+    display: grid;
+
+    grid-template-columns: 50px 70px 100px 100px 150px 150px 100px 550px 40px 40px 40px 40px 100px 100px;
+    grid-auto-rows: minmax(70px, auto);
+
+
 }
-#body{
-    background-color: black;
+
+.logoM {
+
+    border: 0px;
+    
+    width: 60px;
+    height: 60px;
+    justify-items: center;
+    align-items: center;
+    grid-column: 1/12;
+    grid-row: 1;
+    background-color: white;
+
+}
+
+.logoMenu {
+    width: 50px;
+    height: 50px;
+    grid-column: 1/12;
+    grid-row: 1;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    grid-column: 2/12;
+    grid-row: 1;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.portail {
+    grid-column: 3/14;
+    grid-row: 1;
+
+    width: 100px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: blue;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+.cours {
+    grid-column: 4/14;
+    grid-row: 1;
+    width: 100px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: blue;
+    justify-items: center;
+    align-items: center;
+}
+
+.annee {
+    grid-column: 5/14;
+    grid-row: 1;
+    width: 150px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: blue;
+    justify-items: center;
+    align-items: center;
+}
+
+.acces {
+    grid-column: 6/14;
+    grid-row: 1;
+    width: 150px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: blue;
+    justify-items: center;
+    align-items: center;
+}
+
+.archives {
+    grid-column: 7/14;
+    grid-row: 1;
+    width: 100px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: blue;
+
+}
+
+.faq {
+    grid-column: 8/14;
+    grid-row: 1;
+    width: 100px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: blue;
+
+}
+
+.recherche {
+    grid-column: 9/14;
+    grid-row: 1;
+    width: 40px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+
+    color: blue;
+
+}
+
+.reseau {
+    grid-column: 10/14;
+    grid-row: 1;
+    width: 40px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: blue;
+
+}
+
+.cloche {
+    grid-column: 11/14;
+    grid-row: 1;
+    width: 40px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: blue;
+
+}
+
+.dialogue {
+    grid-column: 12/14;
+    grid-row: 1;
+    width: 40px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: blue;
+
+}
+
+.user {
+    grid-column: 13/14;
+    grid-row: 1;
+    width: 90px;
+    border-radius: 0;
+    border: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    color: blue;
+
+}
+
+
+
+.portail:hover,
+.cours:hover,
+.annee:hover,
+.acces:hover,
+.archives:hover,
+.faq:hover {
+    cursor: pointer;
+    background-color: rgb(222, 222, 212);
+
+}
+
+.logoM:hover {
+    background-color: blue;
+}
+nav{
     
 }
-#p{
-    color: white;
+
+.navig{
+    width: 50px;
+    height: 50px;
+
 }
